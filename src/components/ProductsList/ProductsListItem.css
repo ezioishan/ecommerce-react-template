@@ -1,0 +1,17 @@
+.card_container {
+	position: relative;
+	width: 16rem;
+	height: 250px;
+	border-radius: 20px;
+	margin: 20px;
+
+	transition: ease-in-out 0.2s;
+	background: rgb(27, 33, 37, 0.5);
+}
+.card_container:hover {
+	transform: scale(1.05);
+}
+.card_button {
+	position: absolute;
+	bottom: 10px;
+}

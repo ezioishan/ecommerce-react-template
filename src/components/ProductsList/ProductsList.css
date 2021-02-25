@@ -1,0 +1,12 @@
+.container_productList {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.productList_notfound {
+	color: white;
+	height: 203px;
+}

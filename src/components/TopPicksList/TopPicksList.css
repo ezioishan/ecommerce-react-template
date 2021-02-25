@@ -1,0 +1,16 @@
+.carousel_container {
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.carousel_body_container {
+	display: flex;
+	justify-content: space-around;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+}

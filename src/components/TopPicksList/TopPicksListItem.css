@@ -1,0 +1,8 @@
+.carousel_body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 175px;
+	width: 300px;
+	background-color: rgba(15, 15, 15, 0.246);
+}

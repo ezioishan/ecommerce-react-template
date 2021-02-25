@@ -1,0 +1,42 @@
+.login_register_container {
+	background: transparent;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login_register_wrapper {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.609);
+	border-radius: 10px;
+	height: 500px;
+	width: 375px;
+}
+.login_register_tab {
+	display: flex;
+	border-bottom: 5px solid rgba(4, 66, 85, 0.568);
+}
+.login_register {
+	display: flex;
+}
+.login,
+.register {
+	color: white;
+}
+
+.notActiveComp {
+	display: none;
+}
+.login_register_button {
+	margin: 10px;
+	flex: 0.5;
+}
+.login_register_button:focus {
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;
+}
+.activeButton {
+	background-color: rgb(7, 35, 51);
+}
