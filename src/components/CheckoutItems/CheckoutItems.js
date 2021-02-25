@@ -13,15 +13,20 @@ function CheckoutItems({ id, title, price }) {
 	};
 	return (
 		<div className="checkout_item" key={id}>
-			<h3>{title}</h3>
-			<p>
-				<small>
-					$<strong>{price}</strong>
-				</small>
-			</p>
-			<button type="button" onClick={handleClick}>
-				Remove from cart
-			</button>
+			<div className="checkout_item_left">
+				<h3>{title}</h3>
+				<p>Price : ${price}</p>
+			</div>
+
+			<div className="checkout_item_right">
+				<button
+					className="remove_cart_button"
+					type="button"
+					onClick={handleClick}
+				>
+					Remove
+				</button>
+			</div>
 		</div>
 	);
 }

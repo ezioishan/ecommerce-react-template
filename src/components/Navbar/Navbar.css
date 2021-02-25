@@ -1,6 +1,7 @@
 .navbar_wrapper {
 	display: flex;
-
+	justify-content: space-between;
+	align-items: center;
 	color: white;
 }
 .navbar_brand {
@@ -10,15 +11,20 @@
 }
 
 .navbar_searchbar {
-	flex: 0.8;
+	flex: 0.7;
+	min-width: 200px;
 	margin-left: 15px;
-	margin-top: 5px;
+	margin-top: 15px;
 }
-.navbar_loginLink {
-	flex: 0.1;
-	margin-top: 5px;
+
+.navbar_links {
+	margin-right: 20px;
+	display: flex;
+	flex-shrink: 1;
+	justify-content: center;
 }
+.navbar_loginLink,
 .navbar_checkoutLink {
-	flex: 0.1;
-	margin-top: 5px;
+	margin: 10px;
+	padding-top: 10px;
 }

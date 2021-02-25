@@ -2,13 +2,12 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 400px;
+	width: 350px;
 	height: 200px;
 	padding: 20px;
-	background-color: #f3f3f3;
-	border: 1px solid #dddddd;
+	background-color: #ffffff21;
+	margin-left: 10px;
 	border-radius: 3px;
-	color: black;
 }
 
 .subtotal_gift {
@@ -20,14 +19,20 @@
 	margin-right: 5px;
 }
 
-.subtotal > button {
-	background: rgb(40, 124, 40);
+.proceed_button {
+	background: rgb(24, 114, 24);
 	border-radius: 2px;
 	width: 100%;
 	height: 30px;
-	border: 1px solid;
+	border: 1px solid green;
 	margin-top: 10px;
-	border-color: rgb(168, 238, 168);
+
 	color: white;
 	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.proceed_button:hover {
+	transition: all 0.2s ease-in-out;
+	background: rgb(12, 175, 12);
 }

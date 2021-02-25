@@ -27,7 +27,7 @@ function Navbar() {
 			</div>
 			<div className="navbar_searchbar">
 				<Form inline className="mr-auto">
-					<InputGroup className="mb-3">
+					<InputGroup className="mb-3 w-100">
 						<InputGroup.Prepend>
 							<InputGroup.Text id="basic-addon1">
 								Search
@@ -42,22 +42,24 @@ function Navbar() {
 					</InputGroup>
 				</Form>
 			</div>
-			<div className="navbar_loginLink">
-				<Link
-					to="/login-register"
-					style={{ textDecoration: "none", color: "white" }}
-				>
-					<p>Login/Register</p>
-				</Link>
-			</div>
-			<div className="navbar_checkoutLink">
-				<Link
-					to="checkout"
-					style={{ textDecoration: "none", color: "white" }}
-				>
-					<ShoppingCartIcon />
-					{cart?.length}
-				</Link>
+			<div className="navbar_links">
+				<div className="navbar_loginLink">
+					<Link
+						to="/login-register"
+						style={{ textDecoration: "none", color: "white" }}
+					>
+						<p>Login/Register</p>
+					</Link>
+				</div>
+				<div className="navbar_checkoutLink">
+					<Link
+						to="checkout"
+						style={{ textDecoration: "none", color: "white" }}
+					>
+						<ShoppingCartIcon />
+						{cart?.length}
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

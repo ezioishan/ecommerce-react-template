@@ -1,0 +1,26 @@
+.checkout_item {
+	background: rgba(29, 30, 31, 0.37);
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.checkout_item_right {
+	display: flex;
+	align-items: center;
+}
+.remove_cart_button {
+	background-color: rgb(247, 242, 242);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	text-align: center;
+	width: 100px;
+	margin-right: 15px;
+	margin-top: 0;
+	transition: all 0.3s ease-in-out;
+}
+.remove_cart_button:hover {
+	background: crimson;
+	color: white;
+	transition: all 0.2s ease-in-out;
+}
