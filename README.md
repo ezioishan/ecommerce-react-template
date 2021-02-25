@@ -1,6 +1,8 @@
 # Ecommerce Template on ReactJS
 
-Built on ReactJS and react bootstrap, an e-commerce front-end template.
+-   Built on ReactJS and React-strap, an e-commerce front-end template.
+
+-   React-Redux was used for state management
 
 ## How to run
 
