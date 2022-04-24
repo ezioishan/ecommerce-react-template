@@ -67,7 +67,7 @@ function ProductsList() {
 	return (
 		<>
 			<div className="container_productList">{renderProducts}</div>
-			<div>
+			<div className="container_pageNumbers">
 				<Pagination>{pageNumbers}</Pagination>
 			</div>
 		</>

@@ -1,6 +1,6 @@
 .container_productList {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-left: 10px;
@@ -9,4 +9,10 @@
 .productList_notfound {
 	color: white;
 	height: 203px;
+}
+
+.container_pageNumbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
